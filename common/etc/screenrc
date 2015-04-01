@@ -140,6 +140,11 @@ term screen-256color
 # ------------------------------------------------------------------------------
 
 screen -t root    0 bash
-screen -t bench   1 emacs
-screen -t prod    2 bash
-select 2
+screen -t emacs   1 bash
+screen -t emacs   2 bash
+screen -t bench   3 bash
+screen -t bench   4 bash
+screen -t htop    5 bash
+screen -t git     6 bash
+screen -t remote  7 bash
+select 1
